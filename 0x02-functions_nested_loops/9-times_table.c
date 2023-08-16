@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main -entry point
  * return: Always 0
@@ -13,7 +14,7 @@ void times_table(void)
 		{
 			result = i * j;
 			if (j == 0)
-				printf("%d, ", result);
+				printf("%d", result);
 			else
 			{
 				printf("%2d, ", result);
