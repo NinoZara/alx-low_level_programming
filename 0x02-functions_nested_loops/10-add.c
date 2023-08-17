@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int abs(int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 
