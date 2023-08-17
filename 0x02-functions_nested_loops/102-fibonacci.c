@@ -17,7 +17,8 @@ int main(void)
 	{
 		printf("%d", term2);
 		next = term1 + term2;
-		term1 = term2
+		term1 = term2;
+		term2 = next;
 	}
 	printf("\n");
 	return (0);
