@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stdio.h>
+#include "holberton.h"
 
 /**
   * _isupper - Check if a letter is upper
@@ -9,10 +8,10 @@
   */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-
+	if (c >= 65 && c <= 90)
+	{
 		return (1);
-	else
+	}
 
-		return (0);
+	return (0);
 }
